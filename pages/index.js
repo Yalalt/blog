@@ -2,11 +2,6 @@ import {
   Container,
   Row,
   Col,
-  Navbar,
-  Nav,
-  Media,
-  Image,
-  Card,
 } from "react-bootstrap";
 
 import MyNavbar from "components/my-navbar";
