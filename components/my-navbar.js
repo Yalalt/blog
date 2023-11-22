@@ -1,10 +1,9 @@
 import { Navbar, Nav } from "react-bootstrap";
 
-export default () => {
-  return (
+const MyNavbar = () => (
     <Navbar className="fj-navbar fj-nav-base" bg="transparent" expand="lg">
       <Navbar.Brand className="fj-navbar-brand">
-        <a href="#">1234 БЛОГ</a>
+        <a href="#">TOURIST BLOG</a>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -16,4 +15,4 @@ export default () => {
       </Navbar.Collapse>
     </Navbar>
   );
-};
+export default MyNavbar;

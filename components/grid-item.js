@@ -1,7 +1,6 @@
 import { Card } from "react-bootstrap";
 
-export default function GridItem() {
-  return (
+const GridItem = () => (
     <Card className={`fj-card`}>
       <div className="card-body-wrapper">
         <Card.Header className="d-flex flex-row">
@@ -14,9 +13,9 @@ export default function GridItem() {
           />
           <div>
             <Card.Title className="font-weight-bold mb-1">
-              Амар Өсөхбаяр
+              Амагалан Баярбат
             </Card.Title>
-            <Card.Text className="card-date">2021 оны 3 сарын 2</Card.Text>
+            <Card.Text className="card-date">2024 оны 8 сарын 2</Card.Text>
           </div>
         </Card.Header>
         <div className="view overlay">
@@ -27,11 +26,11 @@ export default function GridItem() {
         </div>
         <Card.Body>
           <Card.Title className="card-main-title">
-            Микросэрвис орчин үед
+            Элсэн цөлийн аялалд бэлтгэх
           </Card.Title>
-          <Card.Text>Вэб технологи</Card.Text>
+          <Card.Text>Нарны технологи</Card.Text>
         </Card.Body>
       </div>
     </Card>
   );
-}
+export default GridItem;
